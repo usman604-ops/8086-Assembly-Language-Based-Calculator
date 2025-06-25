@@ -1,0 +1,30 @@
+🚀 Project Highlight: Text-Based Calculator in 8086 Assembly Language
+
+I’m excited to share one of my recent low-level programming projects — a fully functional text-based calculator built using 8086 Assembly Language, designed to run in DOSBox or EMU8086 environments.
+
+🔧 Key Features:
+	•	Operates on the command line with a user-friendly text interface
+	•	Supports four fundamental arithmetic operations: Addition, Subtraction (with sign handling), Multiplication, and Division (with divide-by-zero protection)
+	•	Uses DOS interrupt services (INT 21h and INT 16h) for input/output
+	•	Includes custom routines for:
+	•	Integer input parsing
+	•	Number-to-string conversion
+	•	Dynamic result display
+	•	Handles invalid input gracefully and prompts users to retry
+
+🧠 What I Learned:
+This project deepened my understanding of:
+	•	Register-level data manipulation (AX, BX, CX, DX)
+	•	Stack operations (PUSH, POP) for managing user input
+	•	Control flow and decision-making in assembly
+	•	Error handling in low-level systems
+
+📌 Why This Matters:
+While high-level programming dominates today’s landscape, understanding how a CPU interprets instructions at the lowest level gives a strong foundation for system-level programming, embedded development, and performance optimization.
+
+💡 Tools Used:
+	•	EMU8086 Microprocessor Emulator
+	•	DOSBox for real-mode simulation
+	•	Pure 8086 Assembly (no external libraries)
+
+This calculator is part of a broader initiative to explore computer architecture and assembly language programming, especially relevant for hardware-near applications like embedded systems and real-time control.
